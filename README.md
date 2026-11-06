@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/logo.png" width="160" alt="Course Classroom logo: graph paper with stages stepped off between a curve and the diagonal, and a pencil"></p>
 
-<h1 align="center">Course Classroom</h1>
+<h1 align="center">EngineerClassroom</h1>
 <p align="center"><b>A Claude Code skill that turns a university course into an interactive study classroom.</b></p>
 
 
@@ -15,15 +15,15 @@ interactive study classroom published on claude.ai:
 ## Install
 
 **The easy way: ask Claude.** In Claude Code, paste this repository's link and say **"install skill"**, or say
-"install the skill from https://github.com/<owner>/course-classroom". Claude follows the steps in the
+"install the skill from https://github.com/mussaa3d/EngineerClassroom". Claude follows the steps in the
 [Instructions for Claude](#instructions-for-claude-installing-this-skill) below.
 
 **By hand:**
 ```bash
-git clone https://github.com/<owner>/course-classroom
+git clone https://github.com/mussaa3d/EngineerClassroom
 ```
 ```bash
-cd course-classroom
+cd EngineerClassroom
 ```
 ```bash
 python install.py
@@ -33,7 +33,7 @@ Then restart Claude Code. Use `python install.py --project` to install into the 
 
 **As a Claude Code plugin:** this repository is also a plugin marketplace.
 ```
-/plugin marketplace add <owner>/course-classroom
+/plugin marketplace add mussaa3d/EngineerClassroom
 ```
 ```
 /plugin install course-classroom@course-classroom
@@ -69,7 +69,7 @@ When a user gives you this repository (a link or a local folder) and asks to ins
 
 1. **Clone it.** Clone into a short folder in your scratchpad or the user's home, for example:
    ```bash
-   git clone --depth 1 https://github.com/<owner>/course-classroom ~/course-classroom-src
+   git clone --depth 1 https://github.com/mussaa3d/EngineerClassroom ~/EngineerClassroom
    ```
    If git is missing, download the repository ZIP from GitHub and unzip it. Use the user's link, not the
    placeholder above.
