@@ -78,10 +78,14 @@ def main():
     miss = missing_packages()
     if miss and not o.no_deps and not o.check:
         print('  ...   installing Python packages: ' + ', '.join(miss))
-        r = subprocess.run([sys.executable, '-m', 'pip', 'install', '--upgrade'] + miss)
+        # into Python's main folder: the skill runs Python isolated (python -I), which does not see per-user packages
+        r = subprocess.run([sys.executable, '-m', 'pip', 'install', '--no-user', '--ignore-installed'] + miss)
         if r.returncode:
-            warn('pip could not install them; run:  %s -m pip install %s' % (sys.executable, ' '.join(miss)))
+            r = subprocess.run([sys.executable, '-m', 'pip', 'install', '--upgrade'] + miss)
         miss = missing_packages()
+        if miss:
+            warn('pip could not install them where the skill can see them; run:  %s -m pip install --no-user --ignore-installed %s'
+                 % (sys.executable, ' '.join(miss)))
     if miss:
         warn('missing Python packages: ' + ', '.join(miss) + '  (python -m pip install ' + ' '.join(miss) + ')')
     else:

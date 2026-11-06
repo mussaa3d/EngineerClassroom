@@ -1,4 +1,8 @@
-# Course classroom — a Claude Code skill
+<p align="center"><img src="assets/logo.png" width="160" alt="Course Classroom logo: graph paper with stages stepped off between a curve and the diagonal, and a pencil"></p>
+
+<h1 align="center">Course Classroom</h1>
+<p align="center"><b>A Claude Code skill that turns a university course into an interactive study classroom.</b></p>
+
 
 Turn a university course folder (professor's slides or notes, tutorials, homework, past exams, textbook) into one
 interactive study classroom published on claude.ai:
