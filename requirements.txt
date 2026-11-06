@@ -1,0 +1,5 @@
+pymupdf>=1.23
+pillow>=10
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12

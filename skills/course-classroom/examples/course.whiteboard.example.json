@@ -1,0 +1,70 @@
+{
+ "id": "che415-classroom",
+ "code": "CHE 415",
+ "title": "CHE 415 Classroom",
+ "subtitle": "Process dynamics and control",
+ "professor": "Dr Emad Ali",
+ "teacher_name": "Control AI",
+ "theme": {
+  "accent": "#3b5bdb",
+  "accentDark": "#91a7ff"
+ },
+ "paper": "whiteboard",
+ "more": true,
+ "ask_example": "show me how to find the offset",
+ "professor_chips": [
+  "HW",
+  "Old HW",
+  "Example",
+  "Ex.",
+  "Exercise"
+ ],
+ "solve_style": "Laplace: transform term by term, solve for Y(s), partial fractions by the cover-up method one coefficient per line, invert from the table. Routh: one line per row. Modelling: the word equation Accumulation = In - Out +/- Generation, each balance, simplify, then list states, inputs, parameters and degrees of freedom. Block diagrams: reduce step by step.",
+ "sections": [
+  {
+   "id": "intro",
+   "title": "Introduction to process control",
+   "short": "Introduction"
+  },
+  {
+   "id": "model",
+   "title": "Dynamic modelling",
+   "short": "Modelling"
+  },
+  {
+   "id": "lin",
+   "title": "Linearization",
+   "short": "Linearization"
+  },
+  {
+   "id": "laplace",
+   "title": "Laplace transforms and ODE solution",
+   "short": "Laplace"
+  },
+  {
+   "id": "dyn",
+   "title": "Dynamic response of first, second and higher-order systems",
+   "short": "Dynamic response"
+  },
+  {
+   "id": "pid",
+   "title": "PID feedback control and closed-loop response",
+   "short": "PID control"
+  },
+  {
+   "id": "stab",
+   "title": "Closed-loop stability",
+   "short": "Stability"
+  },
+  {
+   "id": "tune",
+   "title": "Controller tuning",
+   "short": "Tuning"
+  },
+  {
+   "id": "pnid",
+   "title": "Instrumentation, P&ID and controller selection",
+   "short": "P&ID"
+  }
+ ]
+}

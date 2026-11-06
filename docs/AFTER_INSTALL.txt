@@ -1,0 +1,17 @@
+
+Installed. Restart Claude Code (or start a new session) so it picks up the skill.
+
+HOW TO USE IT
+ 1. Put your course in one folder: the professor's slides or chapter notes, the tutorial/homework sheets, past
+    exams (scans and phone photos are fine), and, if you want, the textbook and a solved homework.
+ 2. In Claude Code, say:   make a classroom for "C:\path\to\my course"
+    (or type /course-classroom and give the folder).
+ 3. Claude asks a few questions first: which file is the professor's main material, graph paper (A4/A3 like the
+    homework) or a whiteboard with plotted graphs, the subject list and order, what to include, and the names.
+ 4. Claude then reads everything, sorts every question by subject, writes the subjects with helper agents, builds the
+    page, tests every page, and publishes it as an Artifact (a private page on claude.ai you can share).
+    A full course takes a while (often one to a few hours). You can keep working or come back later.
+ 5. Open the link. Each subject runs: ideas -> the professor's questions solved on paper -> exam/textbook questions of
+    the same type -> quizzes. Press "Next move" on the board to watch each solution being written and drawn.
+
+Full walkthrough: docs/GETTING_STARTED.md   (or ask Claude: "how do I use the course classroom skill?")

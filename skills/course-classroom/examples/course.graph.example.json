@@ -1,0 +1,83 @@
+{
+ "id": "che409-classroom",
+ "code": "CHE 409",
+ "title": "CHE 409 Classroom",
+ "subtitle": "Distillation, extraction, humidification, drying",
+ "professor": "Prof. Hamdaoui",
+ "teacher_name": "Design AI",
+ "theme": {
+  "accent": "#0b6e74",
+  "accentDark": "#6fd3d8"
+ },
+ "paper": "graph",
+ "default_paper": "a4p",
+ "more": true,
+ "facts": "(Short paragraph for the AI: course code and name, professor, his decks/notes, textbooks, grading, the list of topics. Or put it in facts.txt in the course folder.)",
+ "paper_by_section": {
+  "ponch": "a3p",
+  "ext": "a3l",
+  "ext2": "a4l",
+  "hum": "a4l",
+  "dry": "a4l"
+ },
+ "professor_chips": [
+  "Tut",
+  "New Tut",
+  "Final",
+  "Slide"
+ ],
+ "sections": [
+  {
+   "id": "dist1",
+   "title": "Distillation I: equilibrium, simple and flash distillation",
+   "short": "Distillation I"
+  },
+  {
+   "id": "dist2",
+   "title": "McCabe–Thiele method",
+   "short": "McCabe–Thiele"
+  },
+  {
+   "id": "mcsp",
+   "title": "McCabe–Thiele special cases",
+   "short": "McCabe–Thiele special cases"
+  },
+  {
+   "id": "ponch",
+   "title": "Ponchon–Savarit method",
+   "short": "Ponchon–Savarit"
+  },
+  {
+   "id": "dist3",
+   "title": "Multicomponent distillation",
+   "short": "Multicomponent"
+  },
+  {
+   "id": "packed",
+   "title": "Packed beds and packed columns",
+   "short": "Packed beds"
+  },
+  {
+   "id": "ext",
+   "title": "Miscible extraction (ternary diagrams)",
+   "short": "Miscible extraction"
+  },
+  {
+   "id": "ext2",
+   "title": "Immiscible extraction (X–Y coordinates)",
+   "short": "Immiscible extraction"
+  },
+  {
+   "id": "hum",
+   "title": "Humidification and water-cooling towers",
+   "short": "Humidification"
+  },
+  {
+   "id": "dry",
+   "title": "Drying",
+   "short": "Drying"
+  }
+ ],
+ "solve_style": "McCabe-Thiele: step stages from the top; readings written \"from graph: x = ...\" and checked by calculation; trial and error shown as trials.",
+ "ask_example": "show me how to step off the stages"
+}

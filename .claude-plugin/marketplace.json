@@ -1,0 +1,11 @@
+{
+  "name": "course-classroom",
+  "owner": { "name": "course-classroom" },
+  "plugins": [
+    {
+      "name": "course-classroom",
+      "source": "./",
+      "description": "Turn a university course folder into an interactive study classroom published on claude.ai."
+    }
+  ]
+}
