@@ -88,7 +88,7 @@ python -I -X utf8 SKILL/tools/testhook.py <COURSE>\<id>.html <served folder>\tes
 ```
 Serve the folder (`python -I -m http.server 8766 --bind 127.0.0.1`, in the background), open test.html in the built-in
 browser, paste `SKILL/tools/walk.js` and run `__walk(a,b)` in slices (or the async loop that does 5 pages at a time):
-every page must report `errs: []`. Then look at a few pages: a graph page at its start, middle and end; a long
+every page must report `errs: []`. Graph mode: also run `python -I -X utf8 SKILL/tools/gridcheck.py <built.html>`. Every sheet drawing must sit inside the printed grid with its axes on whole-cm lines. Fix a page with `tools/resheet.py` (edit its TARGET list), which moves or rescales every coordinate, then render it with sheetview.py to confirm. Then look at a few pages: a graph page at its start, middle and end; a long
 working sheet; the More page. Fix in the subject file (or engine) and rebuild.
 
 ## Step 6 — publish
