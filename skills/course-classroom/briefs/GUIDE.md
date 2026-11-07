@@ -66,7 +66,7 @@ grid from x=13 mm, y=22 mm), a4l (A4 landscape pad, grid from x=22, y=12), a3p /
 10 mm). Use the paper the brief gives for your subject (or the paper the course's homework uses for that question).
 - Graph pages: `"paper": "<a4p|a4l|a3p|a3l>"`, `"sheet": true`, and a `visual` that is the WHOLE SHEET:
   `<svg viewBox="0 0 4W 4H">` with W×H the sheet in mm (a4p "0 0 840 1188", a4l "0 0 1188 840", a3p "0 0 1188 1680",
-  a3l "0 0 1680 1188"): 4 units = 1 mm, origin at the sheet's top-left. Axes on whole-cm grid lines, at the scale and
+  a3l "0 0 1680 1188"): 4 units = 1 mm, origin at the sheet's top-left. The whole plot must fit INSIDE the printed grid (an A4 pad's grid is only 187 mm wide, so 0–1 over 20 cm does not fit: use 10 or 15 cm). Axes on whole-cm grid lines, at the scale and
   place the homework uses (e.g. x and y from 0 to 1 over 10 cm, 40 units per cm). Same tick labels, axis names and
   readings the students write. Check: `python -I -X utf8 <SKILL>/tools/sheetview.py <file> <page id> out.png` and look.
 - Pages without a graph: no visual, plain A4 working only.
